@@ -1,5 +1,5 @@
 # Laravel Collection Extension
-Adds a few convenient macros to the Laravel Collection and Arr.
+Adds a few convenient macros to the [Laravel](https://laravel.com/) Collection and Arr.
 
 ## Installation
 
