@@ -5,7 +5,8 @@ namespace Yaquawa\Laravel\CollectionExtension;
 class Helper
 {
     /**
-     * Merge arrays recursively with out duplicated values.
+     * Merge arrays recursively with out duplicated values if the KEY is integer.
+     * If the KEY matters, you should use `array_replace_recursive` instead.
      * @see https://stackoverflow.com/a/25712428
      * @param array $array1
      * @param array $array2
