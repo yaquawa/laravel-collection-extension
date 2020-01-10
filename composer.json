@@ -1,0 +1,49 @@
+{
+    "name": "yaquawa/laravel-collection-extension",
+    "description": "Adds a few macros to the Laravel Collection and Arr.",
+    "keywords": [
+        "Laravel"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/yaquawa/laravel-collection-extension",
+    "support": {
+        "issues": "https://github.com/yaquawa/laravel-collection-extension/issues",
+        "source": "https://github.com/yaquawa/laravel-collection-extension"
+    },
+    "authors": [
+        {
+            "name": "yaquawa",
+            "email": "yaquawa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^6.10"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yaquawa\\Laravel\\CollectionExtension\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yaquawa\\Laravel\\CollectionExtension\\CollectionExtensionServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
